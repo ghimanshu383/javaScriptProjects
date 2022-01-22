@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Roboto:ital@1&display=swap');
+
+:root{
+    --colorPrimary:#339af0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Luxurious Roman',sans-serif;
+    background-color: whitesmoke;
+}
+h1{
+    text-align: center;
+    margin-top: 20px;
+    color: var(--colorPrimary);
+}
+.loader{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.imageContainer{
+    width: 400px;
+    margin: auto;
+}
+.imageContent{
+    width: 100%;
+}
+
+@media screen and (max-width: 600px){
+    h1{
+        font-size: 20px;
+    }
+}
