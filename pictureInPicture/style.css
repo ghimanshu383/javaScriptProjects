@@ -1,0 +1,29 @@
+
+html{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button{
+    padding: 24px;
+    font-size: 18px;
+    border: none;
+    color: seashell;
+    background-color: slateblue;
+    font-style: italic;
+    border-radius: 10px;
+
+}
+.button:hover{
+    box-shadow:  5px 5px 25px rgba(0, 0, 0, .2);
+    cursor: pointer;
+}
+.button:active{
+    box-shadow: none;
+}
